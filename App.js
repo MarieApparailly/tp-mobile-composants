@@ -4,9 +4,9 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello World ;)</Text>
+      {/*<Text style={styles.text}>Hello World ;)</Text>*/}
       <StatusBar style="auto" />
-      <View style={styles.brick}></View>
+      {/*<View style={styles.brick}></View>*/}
     </View>
   );
 }
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 10,
     margin: 30,
-    border: "10 solid",
+    borderWidth: 2,
     borderColor: "#218197",
     borderRadius: 20,
   },
